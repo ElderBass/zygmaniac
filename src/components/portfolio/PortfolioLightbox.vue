@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue';
+import { computed, nextTick, onBeforeUnmount, onMounted, ref } from "vue";
 
-import type { PortfolioItem } from '@/types/portfolio';
+import type { PortfolioItem } from "@/types/portfolio";
 
 const props = defineProps<{
   item: PortfolioItem;
@@ -13,46 +13,68 @@ const emit = defineEmits<{
 
 const closeButton = ref<HTMLButtonElement | null>(null);
 
-const hasVideo = computed(() => props.item.kind === 'video' && Boolean(props.item.embedUrl));
+const hasVideo = computed(
+  () => props.item.kind === "video" && Boolean(props.item.embedUrl),
+);
 const itemMeta = computed(() =>
-  [props.item.year, props.item.role ?? props.item.publication].filter(Boolean).join(' / '),
+  [props.item.year, props.item.role ?? props.item.publication]
+    .filter(Boolean)
+    .join(" / "),
 );
 
 function closeLightbox() {
-  emit('close');
+  emit("close");
 }
 
 function onKeydown(event: KeyboardEvent) {
-  if (event.key === 'Escape') {
+  if (event.key === "Escape") {
     closeLightbox();
   }
 }
 
 onMounted(async () => {
-  document.body.classList.add('is-lightbox-open');
-  window.addEventListener('keydown', onKeydown);
+  document.body.classList.add("is-lightbox-open");
+  window.addEventListener("keydown", onKeydown);
   await nextTick();
   closeButton.value?.focus();
 });
 
 onBeforeUnmount(() => {
-  document.body.classList.remove('is-lightbox-open');
-  window.removeEventListener('keydown', onKeydown);
+  document.body.classList.remove("is-lightbox-open");
+  window.removeEventListener("keydown", onKeydown);
 });
 </script>
 
 <template>
   <Teleport to="body">
-    <div class="lightbox" role="dialog" aria-modal="true" :aria-labelledby="`${item.id}-title`">
-      <button class="lightbox__backdrop" type="button" aria-label="Close overlay" @click="closeLightbox"></button>
+    <div
+      class="lightbox"
+      role="dialog"
+      aria-modal="true"
+      :aria-labelledby="`${item.id}-title`"
+    >
+      <button
+        class="lightbox__backdrop"
+        type="button"
+        aria-label="Close overlay"
+        @click="closeLightbox"
+      ></button>
 
       <article class="lightbox__panel">
-        <button ref="closeButton" class="lightbox__close" type="button" @click="closeLightbox">
+        <button
+          ref="closeButton"
+          class="lightbox__close"
+          type="button"
+          @click="closeLightbox"
+        >
           <span aria-hidden="true">×</span>
           <span class="sr-only">Close overlay</span>
         </button>
 
-        <div class="lightbox__media" :class="{ 'lightbox__media--cover': item.kind === 'writing' }">
+        <div
+          class="lightbox__media"
+          :class="{ 'lightbox__media--cover': item.kind === 'writing' }"
+        >
           <iframe
             v-if="hasVideo"
             :src="item.embedUrl"
@@ -67,7 +89,9 @@ onBeforeUnmount(() => {
           <p v-if="itemMeta" class="lightbox__meta">{{ itemMeta }}</p>
           <h2 :id="`${item.id}-title`">{{ item.title }}</h2>
           <p class="lightbox__summary">{{ item.summary }}</p>
-          <p v-for="paragraph in item.description" :key="paragraph">{{ paragraph }}</p>
+          <p v-for="paragraph in item.description" :key="paragraph">
+            {{ paragraph }}
+          </p>
 
           <a
             v-if="item.externalUrl"
@@ -76,7 +100,7 @@ onBeforeUnmount(() => {
             target="_blank"
             rel="noreferrer"
           >
-            {{ item.ctaLabel ?? 'Open Project' }}
+            {{ item.ctaLabel ?? "Open Project" }}
           </a>
         </div>
       </article>
@@ -165,7 +189,11 @@ onBeforeUnmount(() => {
 .lightbox__media--cover {
   padding: clamp(1.5rem, 4vw, 3rem);
   background:
-    radial-gradient(circle at 50% 30%, rgba(34, 166, 83, 0.18), transparent 18rem),
+    radial-gradient(
+      circle at 50% 30%,
+      rgba(34, 166, 83, 0.18),
+      transparent 18rem
+    ),
     #0b100b;
 }
 

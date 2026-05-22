@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from "vue";
 
-import type { PortfolioItem } from '@/types/portfolio';
+import type { PortfolioItem } from "@/types/portfolio";
 
-import PortfolioCard from './PortfolioCard.vue';
-import PortfolioLightbox from './PortfolioLightbox.vue';
+import PortfolioCard from "./PortfolioCard.vue";
+import PortfolioLightbox from "./PortfolioLightbox.vue";
 
 defineProps<{
   items: PortfolioItem[];
-  variant?: 'video' | 'writing';
+  variant?: "video" | "writing";
 }>();
 
 const selectedItem = ref<PortfolioItem | null>(null);
@@ -23,11 +23,23 @@ function closeItem() {
 </script>
 
 <template>
-  <section class="portfolio-grid" :class="variant ? `portfolio-grid--${variant}` : undefined">
-    <PortfolioCard v-for="item in items" :key="item.id" :item="item" @select="openItem" />
+  <section
+    class="portfolio-grid"
+    :class="variant ? `portfolio-grid--${variant}` : undefined"
+  >
+    <PortfolioCard
+      v-for="item in items"
+      :key="item.id"
+      :item="item"
+      @select="openItem"
+    />
   </section>
 
-  <PortfolioLightbox v-if="selectedItem" :item="selectedItem" @close="closeItem" />
+  <PortfolioLightbox
+    v-if="selectedItem"
+    :item="selectedItem"
+    @close="closeItem"
+  />
 </template>
 
 <style scoped>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SiteHeader from '@/components/site/SiteHeader.vue';
+import SiteHeader from "@/components/site/SiteHeader.vue";
 </script>
 
 <template>
@@ -23,8 +23,8 @@ import SiteHeader from '@/components/site/SiteHeader.vue';
   --color-border: rgba(244, 244, 239, 0.12);
   --color-shadow: rgba(0, 0, 0, 0.42);
   --font-display:
-    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
   --font-mono:
     "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   --page-gutter: clamp(1.5rem, 5vw, 5rem);
@@ -50,7 +50,11 @@ body {
   min-height: 100vh;
   margin: 0;
   background:
-    radial-gradient(circle at 85% 0%, rgba(34, 166, 83, 0.08), transparent 28rem),
+    radial-gradient(
+      circle at 85% 0%,
+      rgba(34, 166, 83, 0.08),
+      transparent 28rem
+    ),
     linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-deep) 100%);
 }
 

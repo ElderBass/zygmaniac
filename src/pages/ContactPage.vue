@@ -4,7 +4,9 @@
     <h1 class="page-title">contact</h1>
 
     <address class="contact-page__links">
-      <a class="text-link" href="mailto:jzygarlicke@gmail.com">jzygarlicke@gmail.com</a>
+      <a class="text-link" href="mailto:jzygarlicke@gmail.com"
+        >jzygarlicke@gmail.com</a
+      >
       <a
         class="text-link"
         href="https://www.instagram.com/teh_question/"

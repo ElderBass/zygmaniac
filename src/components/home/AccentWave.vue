@@ -1,7 +1,9 @@
 <template>
   <div class="accent-wave" aria-hidden="true">
     <svg viewBox="0 0 1440 180" preserveAspectRatio="none">
-      <path d="M0 112 C245 70 389 56 626 96 C849 134 983 162 1198 132 C1300 118 1380 92 1440 80" />
+      <path
+        d="M0 112 C245 70 389 56 626 96 C849 134 983 162 1198 132 C1300 118 1380 92 1440 80"
+      />
     </svg>
   </div>
 </template>

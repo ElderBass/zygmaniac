@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import PortfolioGrid from '@/components/portfolio/PortfolioGrid.vue';
-import { writingPortfolio } from '@/data/portfolio';
+import PortfolioGrid from "@/components/portfolio/PortfolioGrid.vue";
+import { writingPortfolio } from "@/data/portfolio";
 </script>
 
 <template>
@@ -9,8 +9,8 @@ import { writingPortfolio } from '@/data/portfolio';
       <p class="eyebrow">published fiction</p>
       <h1 class="page-title">writing</h1>
       <p class="lede">
-        Jared is a published author with several short fiction pieces available to peruse at
-        your leisure.
+        Jared is a published author with several short fiction pieces available
+        to peruse at your leisure.
       </p>
     </div>
 
