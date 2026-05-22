@@ -11,7 +11,7 @@
 
     <section class="home-work" aria-labelledby="featured-work-title">
         <div class="home-work__intro">
-            <h2 id="featured-work-title">editing highlights</h2>
+            <h2 id="featured-work-title">selected edits</h2>
         </div>
         <PortfolioGrid :items="videoPortfolio" variant="video" />
     </section>
@@ -33,12 +33,14 @@
     }
 
     h2 {
-        color: var(--color-accent);
-        font-size: clamp(2rem, 4vw, 3.2rem);
-        letter-spacing: -0.06em;
-        line-height: 1;
-        text-transform: lowercase;
-        margin: 1rem 0;
+        color: var(--color-accent-bright);
+        font-family: var(--font-mono);
+        font-size: 1.25rem;
+        font-weight: 400;
+        letter-spacing: 0.16em;
+        line-height: 1.2;
+        text-transform: uppercase;
+        margin: 0.5rem 0;
     }
 
     .home-work__intro p:last-child {
@@ -46,5 +48,18 @@
         margin: 0;
         color: var(--color-text-muted);
         line-height: 1.6;
+    }
+
+    @media (min-width: 900px) {
+        h2 {
+            margin: 0.75rem 0;
+        }
+    }
+
+    @media (max-width: 640px) {
+        h2 {
+            font-size: clamp(0.95rem, 5vw, 1.35rem);
+            letter-spacing: 0.14em;
+        }
     }
 </style>
