@@ -81,8 +81,16 @@ onBeforeUnmount(() => {
                         v-if="hasVideo"
                         :src="item.embedUrl"
                         :title="`${item.title} video player`"
-                        allow="autoplay; fullscreen; picture-in-picture"
+                        allow="
+                            autoplay;
+                            fullscreen;
+                            picture-in-picture;
+                            clipboard-write;
+                            encrypted-media;
+                            web-share;
+                        "
                         allowfullscreen
+                        referrerpolicy="strict-origin-when-cross-origin"
                     ></iframe>
                     <img
                         v-else
