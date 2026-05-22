@@ -149,7 +149,7 @@ export const writingPortfolio: PortfolioItem[] = [
         subtitle: "short fiction anthology",
         kind: "writing",
         year: "2023",
-        thumbnail: publicAsset("/assets/writing-atlas.svg"),
+        thumbnail: publicAsset("/assets/writing-atlas-of-deep-ones.png"),
         summary:
             "A speculative fiction piece in an anthology of strange maps and stranger waters.",
         description: [
@@ -167,7 +167,7 @@ export const writingPortfolio: PortfolioItem[] = [
         subtitle: "fantasy anthology",
         kind: "writing",
         year: "2022",
-        thumbnail: publicAsset("/assets/writing-magick.svg"),
+        thumbnail: publicAsset("/assets/writing-magick-and-malice.png"),
         summary:
             "A fantasy publication entry with a cover-forward presentation.",
         description: [
