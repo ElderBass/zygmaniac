@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { PortfolioItem } from '@/types/portfolio';
+import type { PortfolioItem } from "@/types/portfolio";
 
 defineProps<{
   item: PortfolioItem;
@@ -12,7 +12,11 @@ defineEmits<{
 
 <template>
   <button class="portfolio-card" type="button" @click="$emit('select', item)">
-    <img class="portfolio-card__image" :src="item.thumbnail" :alt="`${item.title} thumbnail`" />
+    <img
+      class="portfolio-card__image"
+      :src="item.thumbnail"
+      :alt="`${item.title} thumbnail`"
+    />
     <span class="portfolio-card__shade" aria-hidden="true"></span>
     <span class="portfolio-card__content">
       <span class="portfolio-card__title">{{ item.title }}</span>

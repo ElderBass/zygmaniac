@@ -1,4 +1,4 @@
-export type PortfolioKind = 'video' | 'writing';
+export type PortfolioKind = "video" | "writing";
 
 export interface PortfolioItem {
   id: string;

@@ -16,7 +16,13 @@ withDefaults(
   <RouterLink v-if="to" class="base-button" :to="to">
     {{ label }}
   </RouterLink>
-  <a v-else-if="href" class="base-button" :href="href" target="_blank" rel="noreferrer">
+  <a
+    v-else-if="href"
+    class="base-button"
+    :href="href"
+    target="_blank"
+    rel="noreferrer"
+  >
     {{ label }}
   </a>
   <button v-else class="base-button" type="button">
