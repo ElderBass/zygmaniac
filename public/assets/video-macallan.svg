@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Warm brand film placeholder</title>
+  <desc id="desc">Abstract amber and green frame for a video thumbnail.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#3d2519" />
+      <stop offset="0.55" stop-color="#162016" />
+      <stop offset="1" stop-color="#050805" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)" />
+  <circle cx="225" cy="176" r="118" fill="#c77d38" opacity="0.38" />
+  <rect x="560" y="88" width="230" height="360" rx="12" fill="#f0dbc4" opacity="0.16" />
+  <path d="M0 422 C210 342 380 496 592 398 C710 344 823 328 960 368 L960 540 L0 540 Z" fill="#22a653" opacity="0.24" />
+  <text x="56" y="86" fill="#f4f4ef" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="8">MACALLAN</text>
+  <text x="58" y="130" fill="#c6cec3" font-family="Arial, sans-serif" font-size="18" letter-spacing="5">KUMIKO</text>
+</svg>

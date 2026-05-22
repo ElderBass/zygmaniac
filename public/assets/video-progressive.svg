@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Outdoor commercial placeholder</title>
+  <desc id="desc">Soft park colors for a commercial video thumbnail.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#71866f" />
+      <stop offset="0.6" stop-color="#243825" />
+      <stop offset="1" stop-color="#0f170f" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)" />
+  <circle cx="686" cy="210" r="104" fill="#f4f4ef" opacity="0.22" />
+  <circle cx="760" cy="250" r="68" fill="#22a653" opacity="0.24" />
+  <rect x="104" y="330" width="740" height="36" rx="18" fill="#f4f4ef" opacity="0.12" />
+  <text x="58" y="90" fill="#f4f4ef" font-family="Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="6">PROGRESSIVE</text>
+  <text x="60" y="134" fill="#c6cec3" font-family="Arial, sans-serif" font-size="18" letter-spacing="5">GAME PLANS</text>
+</svg>
