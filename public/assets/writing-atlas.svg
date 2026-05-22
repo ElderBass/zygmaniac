@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 900" role="img" aria-labelledby="title desc">
+  <title id="title">Atlas of Deep Ones cover placeholder</title>
+  <desc id="desc">Green book cover styled placeholder for Atlas of Deep Ones.</desc>
+  <rect width="640" height="900" fill="#9aa77f" />
+  <rect x="42" y="42" width="556" height="816" fill="none" stroke="#263222" stroke-width="10" opacity="0.45" />
+  <path d="M94 716 C210 596 398 644 536 520" fill="none" stroke="#263222" stroke-width="7" opacity="0.45" />
+  <text x="90" y="210" fill="#11160f" font-family="Georgia, serif" font-size="78" font-weight="700">ATLAS</text>
+  <text x="250" y="310" fill="#11160f" font-family="Georgia, serif" font-size="42">of</text>
+  <text x="90" y="420" fill="#11160f" font-family="Georgia, serif" font-size="72" font-weight="700">DEEP</text>
+  <text x="112" y="512" fill="#11160f" font-family="Georgia, serif" font-size="72" font-weight="700">ONES</text>
+  <text x="142" y="720" fill="#263222" font-family="Arial, sans-serif" font-size="22" letter-spacing="4">SHORT FICTION</text>
+</svg>

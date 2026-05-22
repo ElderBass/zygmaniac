@@ -1,0 +1,32 @@
+{
+  "name": "zygmaniac",
+  "version": "1.0.0",
+  "description": "website for jared zygarlicke's editing and writing portfolio",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElderBass/zygmaniac.git"
+  },
+  "author": "ElderBass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElderBass/zygmaniac/issues"
+  },
+  "homepage": "https://github.com/ElderBass/zygmaniac#readme",
+  "dependencies": {
+    "vue": "^3.5.34",
+    "vue-router": "^5.0.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.7",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14",
+    "vue-tsc": "^3.3.1"
+  }
+}
