@@ -1,5 +1,8 @@
 import type { PortfolioItem } from "@/types/portfolio";
 
+const publicAsset = (path: string) =>
+    `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
+
 export const videoPortfolio: PortfolioItem[] = [
     {
         id: "macallan-kumiko",
@@ -7,7 +10,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "brand film",
         kind: "video",
         year: "2025",
-        thumbnail: "/assets/video-macallan.svg",
+        thumbnail: publicAsset("/assets/video-macallan.svg"),
         summary:
             "A polished branded spot built around atmosphere, ritual, and quiet detail.",
         description: [
@@ -23,7 +26,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "commercial",
         kind: "video",
         year: "2024",
-        thumbnail: "/assets/video-progressive.svg",
+        thumbnail: publicAsset("/assets/video-progressive.svg"),
         summary:
             "Light comedic timing with a clean, broadcast-friendly finish.",
         description: [
@@ -39,7 +42,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "social spot",
         kind: "video",
         year: "2024",
-        thumbnail: "/assets/video-cpk.svg",
+        thumbnail: publicAsset("/assets/video-cpk.svg"),
         summary:
             "Fast, playful cuts shaped for a compact social-first runtime.",
         description: [
@@ -55,7 +58,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "campaign edit",
         kind: "video",
         year: "2023",
-        thumbnail: "/assets/video-covering-you.svg",
+        thumbnail: publicAsset("/assets/video-covering-you.svg"),
         summary:
             "A crisp commercial edit with approachable energy and brand clarity.",
         description: [
@@ -74,7 +77,7 @@ export const writingPortfolio: PortfolioItem[] = [
         subtitle: "short fiction anthology",
         kind: "writing",
         year: "2023",
-        thumbnail: "/assets/writing-atlas.svg",
+        thumbnail: publicAsset("/assets/writing-atlas.svg"),
         summary:
             "A speculative fiction piece in an anthology of strange maps and stranger waters.",
         description: [
@@ -92,7 +95,7 @@ export const writingPortfolio: PortfolioItem[] = [
         subtitle: "fantasy anthology",
         kind: "writing",
         year: "2022",
-        thumbnail: "/assets/writing-magick.svg",
+        thumbnail: publicAsset("/assets/writing-magick.svg"),
         summary:
             "A fantasy publication entry with a cover-forward presentation.",
         description: [
@@ -110,7 +113,7 @@ export const writingPortfolio: PortfolioItem[] = [
         subtitle: "selected story",
         kind: "writing",
         year: "2026",
-        thumbnail: "/assets/writing-blacksmith.svg",
+        thumbnail: publicAsset("/assets/writing-blacksmith.svg"),
         summary: "A moody standalone story card for additional writing work.",
         description: [
             "Written for Abyss & Apex, a Hugo-nominated magazine of Speculative Fiction.",
