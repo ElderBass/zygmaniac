@@ -14,59 +14,131 @@ export const videoPortfolio: PortfolioItem[] = [
         summary:
             "A polished branded spot built around atmosphere, ritual, and quiet detail.",
         description: [
-            "A refined editing showcase for a luxury-forward campaign, paced around small gestures and warm interior textures.",
-            "Use this slot for a Vimeo or YouTube embed when the final reel URL is ready.",
+            "A featured editing project from Jared's commercial portfolio.",
+            "Final project notes and production details can be added here when they are ready.",
         ],
         role: "Editor",
-        embedUrl: "https://player.vimeo.com/video/76979871",
+        embedUrl:
+            "https://player.vimeo.com/video/1194015992?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
     },
     {
         id: "progressive-game-plans",
-        title: "Progressive Game Plans",
-        subtitle: "commercial",
+        title: "Progressive: Game Plans",
+        subtitle: "television commercial",
         kind: "video",
-        year: "2024",
+        year: "2020",
         thumbnail: publicAsset("/assets/video-progressive.svg"),
         summary:
             "Light comedic timing with a clean, broadcast-friendly finish.",
         description: [
-            "A sample commercial entry for short-form campaign work and branded comedy pacing.",
-            "The card and modal are wired for final production copy, credits, and video embeds.",
+            "A featured editing project from Jared's commercial portfolio.",
+            "Final project notes and production details can be added here when they are ready.",
         ],
         role: "Editor",
-        embedUrl: "https://player.vimeo.com/video/22439234",
+        embedUrl:
+            "https://player.vimeo.com/video/1194363454?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
     },
     {
-        id: "california-pizza-kitchen",
-        title: "California Pizza Kitchen",
-        subtitle: "social spot",
+        id: "california-pizza-kitchen-new-cpk",
+        title: "California Pizza Kitchen - The New CPK",
+        subtitle: "television commercial",
         kind: "video",
         year: "2024",
         thumbnail: publicAsset("/assets/video-cpk.svg"),
         summary:
             "Fast, playful cuts shaped for a compact social-first runtime.",
         description: [
-            "A punchy portfolio item for food, lifestyle, and social content.",
-            "The current embed is a placeholder so the interaction can be tested end-to-end.",
+            "A featured editing project from Jared's commercial portfolio.",
+            "Final project notes and production details can be added here when they are ready.",
         ],
         role: "Editor",
-        embedUrl: "https://player.vimeo.com/video/1084537",
+        embedUrl:
+            "https://player.vimeo.com/video/1194014116?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
     },
     {
         id: "progressive-covering-you",
-        title: "Progressive Covering You",
-        subtitle: "campaign edit",
+        title: "Progressive: Covering You",
+        subtitle: "extended commercial/promo",
         kind: "video",
-        year: "2023",
+        year: "2017",
         thumbnail: publicAsset("/assets/video-covering-you.svg"),
         summary:
             "A crisp commercial edit with approachable energy and brand clarity.",
         description: [
-            "Designed as a flexible placeholder for another featured editing project.",
-            "Replace the copy, thumbnail, and embed URL in the data file as real assets become available.",
+            "A featured editing project from Jared's commercial portfolio.",
+            "Final project notes and production details can be added here when they are ready.",
         ],
         role: "Editor",
-        embedUrl: "https://player.vimeo.com/video/146022717",
+        embedUrl:
+            "https://player.vimeo.com/video/1194014117?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+    },
+    {
+        id: "progressive-baker-mayfield-rain",
+        title: "Progressive: Baker Mayfield Prepares For Rain",
+        subtitle: "television commercial",
+        kind: "video",
+        year: "2021",
+        thumbnail: publicAsset("/assets/video-baker-rain.svg"),
+        summary:
+            "A concise commercial edit built around character, timing, and quick payoff.",
+        description: [
+            "A featured editing project from Jared's commercial portfolio.",
+            "Final project notes and production details can be added here when they are ready.",
+        ],
+        role: "Editor",
+        embedUrl:
+            "https://player.vimeo.com/video/1194363452?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+    },
+    {
+        id: "white-claw-smooth-thoughts",
+        title: "White Claw: Smooth Thoughts",
+        subtitle: "extended commercial/promo",
+        kind: "video",
+        year: "2019",
+        thumbnail: publicAsset("/assets/video-white-claw.svg"),
+        summary:
+            "A personality-forward promo edit with a playful pace and clean finish.",
+        description: [
+            "A featured editing project from Jared's commercial portfolio.",
+            "Final project notes and production details can be added here when they are ready.",
+        ],
+        role: "Editor",
+        embedUrl:
+            "https://player.vimeo.com/video/1194363450?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+    },
+    {
+        id: "progressive-dr-rick-elevator",
+        title: "Progressive: Dr. Rick Elevator",
+        subtitle: "television commercial (short)",
+        kind: "video",
+        year: "2019",
+        thumbnail: publicAsset("/assets/video-dr-rick-elevator.svg"),
+        summary:
+            "A short-form commercial edit shaped around conversational comedy.",
+        description: [
+            "A featured editing project from Jared's commercial portfolio.",
+            "Final project notes and production details can be added here when they are ready.",
+        ],
+        role: "Editor",
+        embedUrl:
+            "https://player.vimeo.com/video/1194363451?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+    },
+    {
+        id: "progressive-to-do-list",
+        title: "Progressive: To Do List",
+        subtitle: "television commercial (short)",
+        kind: "video",
+        year: "2022",
+        thumbnail: publicAsset("/assets/video-to-do-list.svg"),
+        summary:
+            "A compact commercial edit with a simple setup and efficient punchline.",
+        description: [
+            "A featured editing project from Jared's commercial portfolio.",
+            "Final project notes and production details can be added here when they are ready.",
+        ],
+        role: "Editor",
+        embedUrl:
+            "https://player.vimeo.com/video/1194363473?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
     },
 ];
 

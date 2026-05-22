@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Progressive Dr Rick Elevator placeholder</title>
+  <desc id="desc">Elevator inspired green abstract thumbnail for a Progressive short commercial.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#596456" />
+      <stop offset="0.48" stop-color="#1c291d" />
+      <stop offset="1" stop-color="#090e09" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)" />
+  <rect x="330" y="88" width="300" height="372" rx="8" fill="#f4f4ef" opacity="0.12" />
+  <path d="M480 124 L438 196 H522 Z" fill="#22a653" opacity="0.55" />
+  <path d="M480 426 L438 354 H522 Z" fill="#22a653" opacity="0.28" />
+  <line x1="480" y1="88" x2="480" y2="460" stroke="#f4f4ef" stroke-width="4" opacity="0.12" />
+  <text x="56" y="88" fill="#f4f4ef" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="6">PROGRESSIVE</text>
+  <text x="58" y="132" fill="#c6cec3" font-family="Arial, sans-serif" font-size="18" letter-spacing="5">DR. RICK ELEVATOR</text>
+</svg>

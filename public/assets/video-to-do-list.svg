@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Progressive To Do List placeholder</title>
+  <desc id="desc">Checklist inspired abstract thumbnail for a Progressive short commercial.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#203b2a" />
+      <stop offset="0.55" stop-color="#162016" />
+      <stop offset="1" stop-color="#070b07" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)" />
+  <rect x="565" y="84" width="270" height="360" rx="18" fill="#f4f4ef" opacity="0.13" />
+  <path d="M620 170 L650 200 L710 130" fill="none" stroke="#22a653" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity="0.65" />
+  <path d="M620 280 L650 310 L710 240" fill="none" stroke="#22a653" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity="0.38" />
+  <line x1="735" y1="180" x2="800" y2="180" stroke="#f4f4ef" stroke-width="10" opacity="0.2" />
+  <line x1="735" y1="290" x2="800" y2="290" stroke="#f4f4ef" stroke-width="10" opacity="0.2" />
+  <text x="56" y="88" fill="#f4f4ef" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="6">PROGRESSIVE</text>
+  <text x="58" y="132" fill="#c6cec3" font-family="Arial, sans-serif" font-size="18" letter-spacing="5">TO DO LIST</text>
+</svg>
