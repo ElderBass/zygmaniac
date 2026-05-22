@@ -21,7 +21,7 @@ import BaseButton from '@/components/ui/BaseButton.vue';
 
 <style scoped>
 .hero-section {
-  padding: clamp(2rem, 7vw, 5rem) var(--page-gutter) clamp(2rem, 5vw, 4rem);
+  padding: clamp(1.75rem, 4.5vw, 3.5rem) var(--page-gutter) clamp(1.25rem, 3vw, 2.25rem);
 }
 
 .hero-section__inner {
@@ -42,16 +42,36 @@ h1 {
 
 p:not(.eyebrow) {
   max-width: 33rem;
-  margin: 1.15rem 0 0;
+  margin: 0.9rem 0 0;
   color: var(--color-text-muted);
   font-size: clamp(1rem, 1.35vw, 1.15rem);
-  line-height: 1.65;
+  line-height: 1.55;
 }
 
 .hero-section__actions {
   display: flex;
   flex-wrap: wrap;
-  gap: clamp(1rem, 5vw, 4rem);
-  margin-top: 2rem;
+  gap: clamp(1rem, 4vw, 3rem);
+  margin-top: 1.45rem;
+}
+
+@media (min-width: 900px) {
+  .hero-section {
+    padding-top: clamp(1rem, 2.6vw, 2.25rem);
+    padding-bottom: clamp(0.5rem, 1.4vw, 1rem);
+  }
+
+  h1 {
+    margin-top: 0.1rem;
+  }
+
+  p:not(.eyebrow) {
+    margin-top: 0.65rem;
+  }
+
+  .hero-section__actions {
+    gap: clamp(1rem, 3vw, 2.25rem);
+    margin-top: 1.1rem;
+  }
 }
 </style>

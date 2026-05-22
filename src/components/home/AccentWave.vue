@@ -9,13 +9,13 @@
 <style scoped>
 .accent-wave {
   width: 100%;
-  margin: clamp(0.5rem, 3vw, 2rem) 0 clamp(2rem, 6vw, 4.5rem);
+  margin: clamp(0.25rem, 1.6vw, 1rem) 0 clamp(1.25rem, 3vw, 2.4rem);
   overflow: hidden;
 }
 
 svg {
   width: 100%;
-  height: clamp(5rem, 13vw, 10rem);
+  height: clamp(3.5rem, 8vw, 6.5rem);
 }
 
 path {
