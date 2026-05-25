@@ -11,7 +11,7 @@ import { videoPortfolio } from "@/data/portfolio";
 
     <section class="home-work" aria-labelledby="featured-work-title">
         <div class="home-work__intro">
-            <h2 id="featured-work-title">selected edits</h2>
+            <h2 id="featured-work-title">reel</h2>
         </div>
         <PortfolioGrid :items="videoPortfolio" variant="video" />
     </section>
