@@ -16,11 +16,7 @@ const closeButton = ref<HTMLButtonElement | null>(null);
 const hasVideo = computed(
     () => props.item.kind === "video" && Boolean(props.item.embedUrl)
 );
-const itemMeta = computed(() =>
-    [props.item.year, props.item.role ?? props.item.publication]
-        .filter(Boolean)
-        .join(" / ")
-);
+const showWrittenContext = computed(() => props.item.kind === "writing");
 
 function closeLightbox() {
     emit("close");
@@ -100,10 +96,16 @@ onBeforeUnmount(() => {
                 </div>
 
                 <div class="lightbox__body">
-                    <p v-if="itemMeta" class="lightbox__meta">{{ itemMeta }}</p>
                     <h2 :id="`${item.id}-title`">{{ item.title }}</h2>
-                    <p class="lightbox__summary">{{ item.summary }}</p>
-                    <p v-for="paragraph in item.description" :key="paragraph">
+                    <p v-if="showWrittenContext" class="lightbox__summary">
+                        {{ item.summary }}
+                    </p>
+                    <p
+                        v-for="paragraph in showWrittenContext
+                            ? item.description
+                            : []"
+                        :key="paragraph"
+                    >
                         {{ paragraph }}
                     </p>
 
