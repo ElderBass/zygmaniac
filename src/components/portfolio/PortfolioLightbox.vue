@@ -16,7 +16,6 @@ const closeButton = ref<HTMLButtonElement | null>(null);
 const hasVideo = computed(
     () => props.item.kind === "video" && Boolean(props.item.embedUrl)
 );
-const showWrittenContext = computed(() => props.item.kind === "writing");
 
 function closeLightbox() {
     emit("close");
@@ -97,18 +96,6 @@ onBeforeUnmount(() => {
 
                 <div class="lightbox__body">
                     <h2 :id="`${item.id}-title`">{{ item.title }}</h2>
-                    <p v-if="showWrittenContext" class="lightbox__summary">
-                        {{ item.summary }}
-                    </p>
-                    <p
-                        v-for="paragraph in showWrittenContext
-                            ? item.description
-                            : []"
-                        :key="paragraph"
-                    >
-                        {{ paragraph }}
-                    </p>
-
                     <a
                         v-if="item.externalUrl"
                         class="lightbox__link"
@@ -223,6 +210,10 @@ onBeforeUnmount(() => {
 .lightbox__body {
     overflow-y: auto;
     padding: clamp(2rem, 4vw, 3.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .lightbox__meta {
@@ -255,10 +246,10 @@ onBeforeUnmount(() => {
 
 .lightbox__link {
     display: inline-flex;
-    margin-top: 1rem;
+    margin-top: 2.25rem;
     color: var(--color-text);
     font-family: var(--font-mono);
-    font-size: 0.76rem;
+    font-size: clamp(0.95rem, 1.4vw, 1.15rem);
     letter-spacing: 0.16em;
     text-decoration-color: var(--color-accent);
     text-underline-offset: 0.4em;
@@ -284,6 +275,7 @@ onBeforeUnmount(() => {
 
     .lightbox__body {
         overflow: visible;
+        align-items: flex-end;
     }
 }
 </style>
