@@ -20,7 +20,6 @@ defineEmits<{
         <span class="portfolio-card__shade" aria-hidden="true"></span>
         <span class="portfolio-card__content">
             <span class="portfolio-card__title">{{ item.title }}</span>
-            <span class="portfolio-card__subtitle">{{ item.subtitle }}</span>
         </span>
     </button>
 </template>
@@ -86,14 +85,6 @@ defineEmits<{
     font-weight: 800;
     letter-spacing: 0.18em;
     line-height: 1.25;
-    text-transform: uppercase;
-}
-
-.portfolio-card__subtitle {
-    color: var(--color-text-muted);
-    font-family: var(--font-mono);
-    font-size: 0.68rem;
-    letter-spacing: 0.24em;
     text-transform: uppercase;
 }
 

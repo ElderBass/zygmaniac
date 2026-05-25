@@ -34,6 +34,10 @@ import PageBackButton from "@/components/ui/PageBackButton.vue";
     margin-bottom: 1.5rem;
 }
 
+.contact-page .page-title {
+    letter-spacing: 0.04em;
+}
+
 .contact-page__links {
     display: grid;
     gap: 1.3rem;

@@ -10,7 +10,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "brand film",
         kind: "video",
         year: "2025",
-        thumbnail: publicAsset("/assets/video-macallan.svg"),
+        thumbnail: publicAsset("/assets/KUMIKO.png"),
         summary:
             "A polished branded spot built around atmosphere, ritual, and quiet detail.",
         description: [
@@ -27,7 +27,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "television commercial",
         kind: "video",
         year: "2020",
-        thumbnail: publicAsset("/assets/video-progressive.svg"),
+        thumbnail: publicAsset("/assets/GAME PLANS.png"),
         summary:
             "Light comedic timing with a clean, broadcast-friendly finish.",
         description: [
@@ -44,7 +44,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "television commercial",
         kind: "video",
         year: "2024",
-        thumbnail: publicAsset("/assets/video-cpk.svg"),
+        thumbnail: publicAsset("/assets/CPK.png"),
         summary:
             "Fast, playful cuts shaped for a compact social-first runtime.",
         description: [
@@ -61,7 +61,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "extended commercial/promo",
         kind: "video",
         year: "2017",
-        thumbnail: publicAsset("/assets/video-covering-you.svg"),
+        thumbnail: publicAsset("/assets/COVERING YOU.png"),
         summary:
             "A crisp commercial edit with approachable energy and brand clarity.",
         description: [
@@ -78,7 +78,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "television commercial",
         kind: "video",
         year: "2021",
-        thumbnail: publicAsset("/assets/video-baker-rain.svg"),
+        thumbnail: publicAsset("/assets/BAKER MAYFIELD.png"),
         summary:
             "A concise commercial edit built around character, timing, and quick payoff.",
         description: [
@@ -95,7 +95,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "extended commercial/promo",
         kind: "video",
         year: "2019",
-        thumbnail: publicAsset("/assets/video-white-claw.svg"),
+        thumbnail: publicAsset("/assets/SMOOVE THOUGHTS.png"),
         summary:
             "A personality-forward promo edit with a playful pace and clean finish.",
         description: [
@@ -112,7 +112,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "television commercial (short)",
         kind: "video",
         year: "2019",
-        thumbnail: publicAsset("/assets/video-dr-rick-elevator.svg"),
+        thumbnail: publicAsset("/assets/ELEVATOR.png"),
         summary:
             "A short-form commercial edit shaped around conversational comedy.",
         description: [
@@ -129,7 +129,7 @@ export const videoPortfolio: PortfolioItem[] = [
         subtitle: "television commercial (short)",
         kind: "video",
         year: "2022",
-        thumbnail: publicAsset("/assets/video-to-do-list.svg"),
+        thumbnail: publicAsset("/assets/TO DO LIST.png"),
         summary:
             "A compact commercial edit with a simple setup and efficient punchline.",
         description: [
@@ -185,7 +185,7 @@ export const writingPortfolio: PortfolioItem[] = [
         subtitle: "selected story",
         kind: "writing",
         year: "2026",
-        thumbnail: publicAsset("/assets/writing-blacksmith.svg"),
+        thumbnail: publicAsset("/assets/blacksmith.jpg"),
         summary: "A moody standalone story card for additional writing work.",
         description: [
             "Written for Abyss & Apex, a Hugo-nominated magazine of Speculative Fiction.",

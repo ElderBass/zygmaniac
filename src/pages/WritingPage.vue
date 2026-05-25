@@ -38,6 +38,10 @@ import { writingPortfolio } from "@/data/portfolio";
     padding-bottom: clamp(0rem, 5vw, 5rem);
 }
 
+.writing-page .page-title {
+    letter-spacing: 0.04em;
+}
+
 @media (max-width: 900px) {
     .writing-page {
         grid-template-columns: 1fr;
