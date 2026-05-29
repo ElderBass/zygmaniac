@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/ElderBass/zygmaniac/issues"
   },
-  "homepage": "https://elderbass.github.io/zygmaniac/",
+  "homepage": "https://www.jzygarlicke.com/",
   "dependencies": {
     "vue": "^3.5.34",
     "vue-router": "^5.0.7"
