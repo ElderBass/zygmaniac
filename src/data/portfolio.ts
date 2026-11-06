@@ -5,6 +5,22 @@ const publicAsset = (path: string) =>
 
 export const videoPortfolio: PortfolioItem[] = [
     {
+        id: "robitussin-bathroom-commercial",
+        title: "Robby Tussin: Cough Hitman",
+        subtitle: "television commercial",
+        kind: "video",
+        year: "2026",
+        thumbnail: publicAsset("/assets/robitussin-bathroom.jpg"),
+        summary: "A commercial for Robitussin featuring a silly hitman.",
+        description: [
+            "I was the editor for this commercial. I was responsible for the editing, sound design, and color grading.",
+            "I was also responsible for the creative direction of the commercial.",
+        ],
+        role: "Editor",
+        embedUrl:
+            "https://player.vimeo.com/video/1243892820?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+    },
+    {
         id: "macallan-kumiko",
         title: "Macallan Kumiko",
         subtitle: "brand film",
@@ -56,6 +72,23 @@ export const videoPortfolio: PortfolioItem[] = [
             "https://player.vimeo.com/video/1194014116?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
     },
     {
+        id: "gold-peak-zero-sugar-tea",
+        title: "Gold Peak Zero Sugar",
+        subtitle: "television commercial",
+        kind: "video",
+        year: "2021",
+        thumbnail: publicAsset("/assets/gold-peak-zero-sugar.jpg"),
+        summary:
+            "A concise commercial edit built around character, timing, and quick payoff.",
+        description: [
+            "A featured editing project from Jared's commercial portfolio.",
+            "Final project notes and production details can be added here when they are ready.",
+        ],
+        role: "Editor",
+        embedUrl:
+            "https://player.vimeo.com/video/1243892890?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+    },
+    {
         id: "progressive-covering-you",
         title: "Progressive: Covering You",
         subtitle: "extended commercial/promo",
@@ -71,23 +104,6 @@ export const videoPortfolio: PortfolioItem[] = [
         role: "Editor",
         embedUrl:
             "https://player.vimeo.com/video/1194014117?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
-    },
-    {
-        id: "progressive-baker-mayfield-rain",
-        title: "Progressive: Baker Mayfield Prepares For Rain",
-        subtitle: "television commercial",
-        kind: "video",
-        year: "2021",
-        thumbnail: publicAsset("/assets/BAKER MAYFIELD.png"),
-        summary:
-            "A concise commercial edit built around character, timing, and quick payoff.",
-        description: [
-            "A featured editing project from Jared's commercial portfolio.",
-            "Final project notes and production details can be added here when they are ready.",
-        ],
-        role: "Editor",
-        embedUrl:
-            "https://player.vimeo.com/video/1194363452?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
     },
     {
         id: "white-claw-smooth-thoughts",
